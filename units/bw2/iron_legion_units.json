@@ -1,0 +1,256 @@
+{
+  "IRON_LEGION_GRUNT": {
+    "display_name": "Iron Legion - Grunt",
+    "type": "infantry",
+    "faction": "IL",
+    "base_prefix": "LG",
+    "bgf_name": "LG_HI_LOD",
+    "models": {
+      "body": "LG_HI_LOD.modl",
+      "backpack": "UGPACK.modl",
+      "weapon": "L_RIFLE.modl"
+    },
+    "textures": {
+      "body_diffuse": "LG_BOD_DIFF.texture",
+      "bag_diffuse": "LG_BAG_DIFF.texture",
+      "helmet_diffuse": "LG_HELM_DIFF.texture",
+      "weapon_main": "L_RIFLE.texture"
+    },
+    "icon": "U_GRUNT01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+    
+  "IRON_LEGION_ANTI_AIR_VET": {
+    "display_name": "Iron Legion - Anti-Air Vet",
+    "type": "infantry",
+    "faction": "IL",
+    "base_prefix": "LV",
+    "bgf_name": "LV_HI_LOD",
+    "models": {
+      "body": "LV_HI_LOD.modl",
+      "weapon": "L_ANTIAIRGUN.modl",
+      "helmet": "L_ANTIAIRHELM.modl",
+      "backpack": "L_ANTIAIRPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "LV_BOD_DIFF.texture",
+      "weapon": "L_ANTIAIRGUN.texture",
+      "helmet": "L_ANTIAIRHELM.texture",
+      "pack": "L_ANTIAIRPACK.texture"
+    },
+    "icon": "U_ANTIAIR01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+
+  "IRON_LEGION_BAZOOKA_VET": {
+    "display_name": "Iron Legion - Bazooka Vet",
+    "type": "infantry",
+    "faction": "IL",
+    "base_prefix": "LV",
+    "bgf_name": "LV_HI_LOD",
+    "models": {
+      "body": "LV_HI_LOD.modl",
+      "weapon": "L_ANTIARMGUN.modl",
+      "helmet": "L_ANTIARMHELM.modl",
+      "backpack": "L_ANTIARMPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "LV_BOD_DIFF.texture",
+      "weapon": "L_ANTIARMGUN.texture",
+      "helmet": "L_ANTIARMHELM.texture",
+      "pack": "L_ANTIARMPACK.texture"
+    },
+    "icon": "U_ANTIARM01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+
+  "IRON_LEGION_CHAIN_VET": {
+    "display_name": "Iron Legion - Chain Vet",
+    "type": "infantry",
+    "faction": "IL",
+    "base_prefix": "LV",
+    "bgf_name": "LV_HI_LOD",
+    "models": {
+      "body": "LV_HI_LOD.modl",
+      "weapon": "L_CHAINGUN.modl",
+      "helmet": "L_CHAINHELM.modl",
+      "backpack": "L_CHAINPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "LV_BOD_DIFF.texture",
+      "weapon": "L_CHAINGUN.texture",
+      "helmet": "L_Helm.texture",
+      "pack": "L_CHAINPACK.texture"
+    },
+    "icon": "U_HMG01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+
+  "IRON_LEGION_FLAMET_VET": {
+    "display_name": "Iron Legion - Flamet Vet",
+    "type": "infantry",
+    "faction": "IL",
+    "base_prefix": "LV",
+    "bgf_name": "LV_HI_LOD",
+    "models": {
+      "body": "LV_HI_LOD.modl",
+      "weapon": "L_HOSEGUN.modl",
+      "helmet": "L_HOSEHELM.modl",
+      "backpack": "L_HOSEPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "LV_BOD_DIFF.texture",
+      "weapon": "L_HOSEGUN.texture",
+      "helmet": "L_HOSEHELM.texture",
+      "pack": "L_HOSEPACK.texture"
+    },
+    "icon": "U_HOSE01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+
+  "IRON_LEGION_MORTAR_VET": {
+    "display_name": "Iron Legion - Mortar Vet",
+    "type": "infantry",
+    "faction": "IL",
+    "base_prefix": "LV",
+    "bgf_name": "LV_HI_LOD",
+    "models": {
+      "body": "LV_HI_LOD.modl",
+      "weapon": "L_PARAGUN.modl",
+      "helmet": "L_PARAHELM.modl",
+      "backpack": "L_PARAPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "LV_BOD_DIFF.texture",
+      "weapon": "L_PARA.texture",
+      "helmet": "L_PARAHELM.texture",
+      "pack": "L_PARAPACK.texture"
+    },
+    "icon": "U_PARABOLIC01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+
+  "IRON_LEGION_HEAVY_TANK": {
+    "display_name": "Iron Legion - Heavy Tank",
+    "type": "vehicle",
+    "faction": "IL",
+    "bgf_name": "VUHTNKH",
+    "base_name": "VUHTNK",
+    "models": {
+      "main": "VUHTNKH.modl",
+      "track_left": "VUHTNKH_TRAC_L.modl",
+      "track_right": "VUHTNKH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VUHTNK_MAIN.texture",
+      "bump": "VUHTNK_MAIN_bump.texture",
+      "spec": "VUHTNK_MAIN_spec.texture",
+      "treads": "VUHTNKT_TREADS.texture",
+      "treadsb": "VUHTNKT_TREADSB.texture"
+    },
+    "icon": "U_HTNK01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+
+  "IRON_LEGION_BATTLESTATION": {
+    "display_name": "Iron Legion - Battlestation",
+    "type": "vehicle",
+    "faction": "IL",
+    "bgf_name": "VUBSTAH",
+    "base_name": "VUBSTA",
+    "models": {
+      "main": "VUBSTAH.modl"
+    },
+    "textures": {
+      "main": "VIL_BSTA01_main.texture",
+      "bump": "VIL_BSTA01_bump.texture",
+      "spec": "VIL_BSTA01_spec.texture"
+    },
+    "icon": "U_BSTA01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },  
+
+  "IRON_LEGION_ARTILLERY": {
+    "display_name": "Iron Legion - Artillery",
+    "type": "vehicle",
+    "faction": "IL",
+    "bgf_name": "VUARTH",
+    "base_name": "VUART",
+    "models": {
+      "main": "VUARTH.modl",
+      "track_left": "VUART_TRAC_L.modl",
+      "track_right": "VUART_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VUART_MAIN.texture",
+      "bump": "VUART_MAIN_bump.texture",
+      "spec": "VUART_MAIN_spec.texture",
+      "main2": "VUART02.texture",
+      "bump2": "VUART02_bump.texture",
+      "spec2": "VUART02_spec.texture",
+      "treadsb": "VUART_trk_blur.texture"
+    },
+    "icon": "U_ART01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+
+  "IRON_LEGION_GUNSHIP": {
+    "display_name": "Iron Legion - Gunship",
+    "type": "vehicle",
+    "faction": "IL",
+    "bgf_name": "VUGSHPH",
+    "base_name": "VUGSHP",
+    "models": {
+      "main": "VUGSHPH.modl"
+    },
+    "textures": {
+      "main": "VUGSHP_MAIN.texture",
+      "bump": "VUGSHP_MAIN_BUMP.texture",
+      "spec": "VUGSHP_MAIN_SPEC.texture"
+    },
+    "icon": "U_GSHP01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+
+  "IRON_LEGION_FIGHTER": {
+    "display_name": "Iron Legion - Fighter",
+    "type": "vehicle",
+    "faction": "IL",
+    "bgf_name": "VUFTR_H",
+    "base_name": "VUFTR",
+    "models": {
+      "main": "VUFTR_H.modl"
+    },
+    "textures": {
+      "main": "VUFTR01_main.texture",
+      "bump": "VUFTR01_bump.texture",
+      "spec": "VUFTR01_spec.texture",
+      "main2": "VUFTR02_main.texture",
+      "bump2": "VUFTR02_bump.texture",
+      "spec2": "VUFTR02_spec.texture"
+    },
+    "icon": "U_FTR01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  },
+
+  "IRON_LEGION_BOMBER": {
+    "display_name": "Iron Legion - Bomber",
+    "type": "vehicle",
+    "faction": "IL",
+    "bgf_name": "VUBOMBERH",
+    "base_name": "VUBOMBER",
+    "models": {
+      "main": "VUBOMBERH.modl"
+    },
+    "textures": {
+      "main": "VUBOMBER01_main.texture",
+      "bump": "VUBOMBER01_bump.texture",
+      "spec": "VUBOMBER01_spec.texture",
+      "main2": "VUBOMBER02_main.texture",
+      "bump2": "VUBOMBER02_bump.texture",
+      "spec2": "VUBOMBER02_spec.texture"
+    },
+    "icon": "U_BOMBER01.texture",
+    "new_icon_format": "U_{NAME}.texture"
+  }
+}

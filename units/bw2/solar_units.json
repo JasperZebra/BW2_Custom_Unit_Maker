@@ -1,0 +1,440 @@
+{
+  "SOLAR_GRUNT": {
+    "display_name": "Solar Empire - Grunt",
+    "type": "infantry",
+    "faction": "S",
+    "base_prefix": "SG",
+    "bgf_name": "SG_HI_LOD",
+    "models": {
+      "body": "SG_HI_LOD.modl",
+      "backpack": "SGPACK.modl",
+      "weapon": "SRIFLE.modl"
+    },
+    "textures": {
+      "body_diffuse": "SG_BOD_DIFF.texture",
+      "bag_diffuse": "SG_BAG_DIFF.texture",
+      "helmet_diffuse": "SG_HELM_DIFF.texture",
+      "weapon_main": "SRIFLE.texture"
+    },
+    "icon": "S_GRUNT01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_GRUNT_ME": {
+    "display_name": "Solar Empire - Munitions Expert",
+    "type": "infantry",
+    "faction": "S",
+    "base_prefix": "SG",
+    "bgf_name": "SG_HI_LOD",
+    "models": {
+      "body": "SG_HI_LOD.modl",
+      "backpack": "SGPACKDYN_H.modl"
+    },
+    "textures": {
+      "body_diffuse": "SG_BOD_DIFF.texture",
+      "bag_diffuse": "SG_BAG_DIFF.texture",
+      "helmet_diffuse": "SG_HELM_DIFF.texture"
+    },
+    "icon": "S_GRUNT01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_GRUNT_SB": {
+    "display_name": "Solar Empire - Staff Bearer",
+    "type": "infantry",
+    "faction": "S",
+    "base_prefix": "SG",
+    "bgf_name": "SG_HI_LOD",
+    "models": {
+      "body": "SG_HI_LOD.modl",
+      "backpack": "SGPACKSTAFF.modl",
+      "weapon": "SRIFLE.modl"
+    },
+    "textures": {
+      "body_diffuse": "SG_BOD_DIFF.texture",
+      "bag_diffuse": "SG_BAG_DIFF.texture",
+      "helmet_diffuse": "SG_HELM_DIFF.texture",
+      "weapon_main": "SRIFLE.texture",
+      "staff": "S_staff.texture"
+    },
+    "icon": "S_GRUNT01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_ANTI_AIR_VET": {
+    "display_name": "Solar Empire - Anti-Air Vet",
+    "type": "infantry",
+    "faction": "S",
+    "base_prefix": "SVET",
+    "bgf_name": "SVET",
+    "models": {
+      "body": "SVET.modl",
+      "weapon": "SANTAIRGUN.modl",
+      "helmet": "SANTAIRHELM.modl",
+      "backpack": "SANTAIRPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "SV_BODY_DIFF.texture",
+      "weapon": "santairGun1.texture",
+      "helmet": "santairHelm_01.texture",
+      "pack": "santairpack_01.texture"
+    },
+    "icon": "S_ANTIAIR01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_BAZOOKA_VET": {
+    "display_name": "Solar Empire - Bazooka Vet",
+    "type": "infantry",
+    "faction": "S",
+    "base_prefix": "SVET",
+    "bgf_name": "SVET",
+    "models": {
+      "body": "SVET.modl",
+      "weapon": "SAARMGUN.modl",
+      "helmet": "SAARMHELM.modl",
+      "backpack": "SAARMPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "SV_BODY_DIFF.texture",
+      "weapon": "SAARMGUN.texture",
+      "helmet": "SAARMHELM.texture",
+      "pack": "SAARMPACK.texture"
+    },
+    "icon": "S_ANTIARM01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_CHAIN_VET": {
+    "display_name": "Solar Empire - Chain Vet",
+    "type": "infantry",
+    "faction": "S",
+    "base_prefix": "SVET",
+    "bgf_name": "SVET",
+    "models": {
+      "body": "SVET.modl",
+      "weapon": "SCHAINGUN_H.modl",
+      "helmet": "SCHAINHELM.modl",
+      "backpack": "SCHAINPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "SV_BODY_DIFF.texture",
+      "weapon": "SCHAINGUN.texture",
+      "helmet": "SCHAINHELM.texture",
+      "pack": "SHMGPACK.texture"
+    },
+    "icon": "S_HMG01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_FLAME_VET": {
+    "display_name": "Solar Empire - Flame Vet",
+    "type": "infantry",
+    "faction": "S",
+    "base_prefix": "SVET",
+    "bgf_name": "SVET",
+    "models": {
+      "body": "SVET.modl",
+      "weapon": "SHOSEGUN.modl",
+      "helmet": "SHOSEHELM.modl",
+      "backpack": "SHOSEPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "SV_BODY_DIFF.texture",
+      "weapon": "SHOSEGUN.texture",
+      "helmet": "SHOSEHELM.texture",
+      "pack": "SHOSEPACK.texture"
+    },
+    "icon": "S_HOSE01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_MORTAR_VET": {
+    "display_name": "Solar Empire - Mortar Vet",
+    "type": "infantry",
+    "faction": "S",
+    "base_prefix": "SVET",
+    "bgf_name": "SVET",
+    "models": {
+      "body": "SVET.modl",
+      "weapon": "SPARAGUN.modl",
+      "helmet": "SPARAHELM.modl",
+      "backpack": "SPARAPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "SV_BODY_DIFF.texture",
+      "weapon": "SPARAGUN.texture",
+      "helmet": "SPARAHELM.texture",
+      "pack": "SPARAPACK.texture"
+    },
+    "icon": "S_PARABOLIC01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_LIGHT_TANK": {
+    "display_name": "Solar Empire - Light Tank",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSLTNKH",
+    "base_name": "VSLTNK",
+    "models": {
+      "main": "VSLTNKH.modl",
+      "track_left": "VSLTNKH_TRAC_L.modl",
+      "track_right": "VSLTNKH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VSE_LTNK01_main.texture",
+      "main_bump": "VSE_LTNK01_bump.texture",
+      "main_spec": "VSE_LTNK01_spec.texture",
+      "main2": "VSE_LTNK02_main.texture",
+      "main2_bump": "VSE_LTNK02_bump.texture",
+      "main2_spec": "VSE_LTNK02_spec.texture",
+      "treadsb": "VSTREADS_BLUR.texture"
+    },
+    "icon": "S_LTNK01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_HEAVY_TANK": {
+    "display_name": "Solar Empire - Heavy Tank",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSHTNKH",
+    "base_name": "VSHTNK",
+    "models": {
+      "main": "VSHTNKH.modl"
+    },
+    "textures": {
+      "main": "vsehtnk.texture",
+      "bump": "vsehtnk_BUMP.texture",
+      "spec": "vsehtnk_SPEC.texture"
+    },
+    "icon": "S_HTNK01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_RECON": {
+    "display_name": "Solar Empire - Recon",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSRECOH",
+    "base_name": "VSRECO",
+    "models": {
+      "main": "VSRECOH.modl"
+    },
+    "textures": {
+      "main": "VSE_Reco01_main.texture",
+      "bump": "VSE_Reco01_bump.texture",
+      "spec": "VSE_Reco01_spec.texture",
+      "shadow": "VSE_Reco_SHADOW.texture"
+    },
+    "icon": "S_RECO01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_ANTI_AIR": {
+    "display_name": "Solar Empire - Anti Air",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSAAH",
+    "base_name": "VSAA",
+    "models": {
+      "main": "VSAAH.modl",
+      "track_left": "VSAAH_TRAC_L.modl",
+      "track_right": "VSAAH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VSE_AA01_main.texture",
+      "bump": "VSE_AA01_bump.texture",
+      "spec": "VSE_AA01_spec.texture",
+      "main2": "VSE_AA02_main.texture",
+      "bump2": "VSE_AA02_bump.texture",
+      "spec2": "VSE_AA02_spec.texture",
+      "shadow": "VSE_AA_shadow.texture",
+      "treadsb": "VSTREADS_BLUR.texture"
+    },
+    "icon": "S_AA01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_ARTILLERY": {
+    "display_name": "Solar Empire - Artillery",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSARTH",
+    "base_name": "VSART",
+    "models": {
+      "main": "VSARTH.modl",
+      "track_left": "VSART_TRAC_L.modl",
+      "track_right": "VSART_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VSE_ARTILLERY01_main.texture",
+      "bump": "VSE_ARTILLERY01_bump.texture",
+      "spec": "VSE_ARTILLERY01_spec.texture",
+      "main2": "VSE_ARTILLERY02_main.texture",
+      "bump2": "VSE_ARTILLERY02_bump.texture",
+      "spec2": "VSE_ARTILLERY02_spec.texture",
+      "treadsb": "VSTREADS_BLUR.texture"
+    },
+    "icon": "S_ART01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_FIGHTER": {
+    "display_name": "Solar Empire - Fighter",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSFTR_H",
+    "base_name": "VSFTR",
+    "models": {
+      "main": "VSFTR_H.modl"
+    },
+    "textures": {
+      "main": "vseftr.texture",
+      "bump": "vseftr_BUMP.texture",
+      "spec": "vseftr_SPEC.texture",
+      "refmap": "VWFREFMAP1.texture"
+    },
+    "icon": "S_FTR01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_GUNSHIP": {
+    "display_name": "Solar Empire - Gunship",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSGSHPH",
+    "base_name": "VSGSHP",
+    "models": {
+      "main": "VSGSHPH.modl"
+    },
+    "textures": {
+      "main": "VSE_GSHP01_main.texture",
+      "bump": "VSE_GSHP01_bump.texture",
+      "spec": "VSE_GSHP01_spec.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "S_GSHP01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_TRANSPORT": {
+    "display_name": "Solar Empire - Air Transport",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSTPTH",
+    "base_name": "VSTPT",
+    "models": {
+      "main": "VSTPTH.modl"
+    },
+    "textures": {
+      "main": "VSE_TPT01_main.texture",
+      "bump": "VSE_TPT01_bump.texture",
+      "spec": "VSE_TPT01_spec.texture",
+      "main2": "VSE_TPT02_main.texture",
+      "bump2": "VSE_TPT02_bump.texture",
+      "spec2": "VSE_TPT02_spec.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "S_TPT01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_BATTLESHIP": {
+    "display_name": "Solar Empire - Battleship",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSBTTLSHIPH",
+    "base_name": "VSBTTLSHIP",
+    "models": {
+      "main": "VSBTTLSHIPH.modl"
+    },
+    "textures": {
+      "main": "VSE_BATTLESHIP01_main.texture",
+      "bump": "VSE_BATTLESHIP01_bump.texture",
+      "spec": "VSE_BATTLESHIP01_spec.texture"
+    },
+    "icon": "S_BSHP01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_FRIGATE": {
+    "display_name": "Solar Empire - Frigate",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSFRIGATEH",
+    "base_name": "VSFRIGATE",
+    "models": {
+      "main": "VSFRIGATEH.modl"
+    },
+    "textures": {
+      "main": "VSE_FRIGATE01_main.texture",
+      "bump": "VSE_FRIGATE01_bump.texture",
+      "spec": "VSE_FRIGATE01_spec.texture",
+      "main2": "VSE_FRIGATE02_main.texture",
+      "bump2": "VSE_FRIGATE02_bump.texture",
+      "spec2": "VSE_FRIGATE02_spec.texture",
+      "share": "VSSHARE2.texture"
+    },
+    "icon": "S_FRIGATE01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_SUBMARINE": {
+    "display_name": "Solar Empire - Submarine",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSSUBMARINEH",
+    "base_name": "VSSUBMARINE",
+    "models": {
+      "main": "VSSUBMARINEH.modl"
+    },
+    "textures": {
+      "main": "VSE_SUB01_main.texture",
+      "bump": "VSE_SUB01_bump.texture",
+      "spec": "VSE_SUB01_spec.texture",
+      "main2": "VSE_SUB02_main.texture",
+      "bump2": "VSE_SUB02_bump.texture",
+      "spec2": "VSE_SUB02_spec.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "S_SUB01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_DREADNOUGHT": {
+    "display_name": "Solar Empire - Dreadnought",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSDREADNOUGHT_H",
+    "base_name": "VSDREADNOUGHT",
+    "models": {
+      "main": "VSDREADNOUGHT_H.modl"
+    },
+    "textures": {
+      "main": "VSE_DREADNOUGHT_main.texture",
+      "bump": "VSE_DREADNOUGHT_bump.texture",
+      "spec": "VSE_DREADNOUGHT_spec.texture"
+    },
+    "icon": "S_DNOUGHT01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  },
+
+  "SOLAR_TRANSPORT_NAVAL": {
+    "display_name": "Solar Empire - Naval Transport",
+    "type": "vehicle",
+    "faction": "S",
+    "bgf_name": "VSNAVTRANS",
+    "base_name": "VSNAVTRANS",
+    "models": {
+      "main": "VSNAVTRANS.modl"
+    },
+    "textures": {
+      "main": "vsnavtrans.texture",
+      "main2": "VSNAVTRANS2.texture"
+    },
+    "icon": "S_LCRAFT01.texture",
+    "new_icon_format": "S_{NAME}.texture"
+  }
+}

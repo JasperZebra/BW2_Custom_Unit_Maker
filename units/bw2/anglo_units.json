@@ -1,0 +1,354 @@
+{
+  "ANGLO_GRUNT": {
+    "display_name": "Anglo Isles - Grunt",
+    "type": "infantry",
+    "faction": "AI",
+    "base_prefix": "AG",
+    "bgf_name": "AG_HI_LOD",
+    "models": {
+      "body": "AG_HI_LOD.modl",
+      "backpack": "AGBCKPCK.modl",
+      "weapon": "A_RIFLE.modl"
+    },
+    "textures": {
+      "body_diffuse": "AG_BODY_DIFF.texture",
+      "bag_diffuse": "AG_BAG_DIFF.texture",
+      "helmet_diffuse": "AG_HELMET_DIFF.texture",
+      "weapon_main": "VAI_RIFLE.texture"
+    },
+    "icon": "ICON_ANGLOGRUNT.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_ANTI_AIR_VET": {
+    "display_name": "Anglo Isles - Anti-Air Vet",
+    "type": "infantry",
+    "faction": "AI",
+    "base_prefix": "AV",
+    "bgf_name": "AV_HI_LOD",
+    "models": {
+      "body": "AV_HI_LOD.modl",
+      "weapon": "A_ANTIAIRGUN.modl",
+      "helmet": "A_ANTIAIRHELM.modl",
+      "backpack": "A_ANTIAIRPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "AV_BOD_DIFF.texture",
+      "weapon": "VAI_AAIRGUN.texture",
+      "helmet": "VAI_AAIRHELMET.texture",
+      "pack": "VAI_AAIRBPACK.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_ANTIAIR01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_BAZOOKA_VET": {
+    "display_name": "Anglo Isles - Bazooka Vet",
+    "type": "infantry",
+    "faction": "AI",
+    "base_prefix": "AV",
+    "bgf_name": "AV_HI_LOD",
+    "models": {
+      "body": "AV_HI_LOD.modl",
+      "weapon": "A_ANTIAIRGUN.modl",
+      "helmet": "A_ANTIARMHELM.modl",
+      "backpack": "A_ANTIARMPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "AV_BOD_DIFF.texture",
+      "weapon": "VAI_AARM.texture",
+      "helmet": "VAI_AARMHELMET.texture",
+      "pack": "VAI_AARMBPACK.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_ANTIARM01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_CHAIN_VET": {
+    "display_name": "Anglo Isles - Chain Vet",
+    "type": "infantry",
+    "faction": "AI",
+    "base_prefix": "AV",
+    "bgf_name": "AV_HI_LOD",
+    "models": {
+      "body": "AV_HI_LOD.modl",
+      "weapon": "A_CHAINGUN.modl",
+      "helmet": "A_CHAINHELM.modl",
+      "backpack": "A_CHAINPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "AV_BOD_DIFF.texture",
+      "weapon": "VAI_CHAINGUN.texture",
+      "helmet": "VAI_CHAINHELMET.texture",
+      "pack": "VAI_CHAINBPACK.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_HMG01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_FLAME_VET": {
+    "display_name": "Anglo Isles - Flame Vet",
+    "type": "infantry",
+    "faction": "AI",
+    "base_prefix": "AV",
+    "bgf_name": "AV_HI_LOD",
+    "models": {
+      "body": "AV_HI_LOD.modl",
+      "weapon": "A_HOSEGUN.modl",
+      "helmet": "A_HOSEHELM.modl",
+      "backpack": "A_HOSEPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "AV_BOD_DIFF.texture",
+      "weapon": "VAI_HOSE.texture",
+      "helmet": "VAI_HOSEHELMET.texture",
+      "pack": "VAI_HOSEPACK.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_HOSE01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_MORTAR_VET": {
+    "display_name": "Anglo Isles - Mortar Vet",
+    "type": "infantry",
+    "faction": "AI",
+    "base_prefix": "AV",
+    "bgf_name": "AV_HI_LOD",
+    "models": {
+      "body": "AV_HI_LOD.modl",
+      "weapon": "A_PARAGUN.modl",
+      "helmet": "A_PARAHELM.modl",
+      "backpack": "A_PARAPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "AV_BOD_DIFF.texture",
+      "weapon": "VAI_PARABOLIC.texture",
+      "helmet": "VAI_PARAHELMET.texture",
+      "pack": "VAI_PARABPACK.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_PARABOLIC01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_LIGHT_TANK": {
+    "display_name": "Anglo Isles - Light Tank",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAILTNKH",
+    "base_name": "VAILTNK",
+    "models": {
+      "main": "VAILTNKH.modl",
+      "track_left": "VAILTNK_TRAC_L.modl",
+      "track_right": "VAILTNK_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VAILightTank1_main.texture",
+      "bump": "VAILightTank1_bump.texture",
+      "spec": "VAILightTank1_spec.texture",
+      "main2": "VAILightTank2_main.texture",
+      "bump2": "VAILightTank2_bump.texture",
+      "spec2": "VAILightTank2_spec.texture",
+      "treads": "VTHTNKT_TREADS.texture",
+      "treadsb": "VTHTNKT_TREADSB.texture"
+    },
+    "icon": "AI_LTNK01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_HEAVY_TANK": {
+    "display_name": "Anglo Isles - Heavy Tank",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAIHTNK_H",
+    "base_name": "VAIHTNK",
+    "models": {
+      "main": "VAIHTNK_H.modl",
+      "track_left": "VAIHTNK_TRAC_L.modl",
+      "track_right": "VAIHTNK_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VIAHeavyTank1_main.texture",
+      "bump": "VIAHeavyTank1_bump.texture",
+      "spec": "VIAHeavyTank1_spec.texture",
+      "main2": "VIAHeavyTank2_main.texture",
+      "bump2": "VIAHeavyTank2_bump.texture",
+      "spec2": "VIAHeavyTank2_spec.texture",
+      "treads": "VTHTNKT_TREADS.texture",
+      "treadsb": "VTHTNKT_TREADSB.texture"
+    },
+    "icon": "AI_HTNK01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_ARTILLERY": {
+    "display_name": "Anglo Isles - Artillery",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAIArt_H",
+    "base_name": "VAIArt",
+    "models": {
+      "main": "VAIArt_H.modl",
+      "track_left": "VAIART_TRAC_L.modl",
+      "track_right": "VAIART_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VAIArtillery1_main.texture",
+      "bump": "VAIArtillery1_bump.texture",
+      "spec": "VAIArtillery1_spec.texture",
+      "main2": "VAIArtillery2_main.texture",
+      "bump2": "VAIArtillery2_bump.texture",
+      "spec2": "VAIArtillery2_spec.texture",
+      "treads": "VTHTNKT_TREADS.texture",
+      "treadsb": "VTHTNKT_TREADSB.texture"
+    },
+    "icon": "AI_ART01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_FIGHTER": {
+    "display_name": "Anglo Isles - Fighter",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAIFIGHTER_H",
+    "base_name": "VAIFIGHTER",
+    "models": {
+      "main": "VAIFIGHTER_H.modl"
+    },
+    "textures": {
+      "main": "VAIFIGHTER01_main.texture",
+      "bump": "VAIFIGHTER01_bump.texture",
+      "spec": "VAIFIGHTER01_spec.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_FTR01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_BOMBER": {
+    "display_name": "Anglo Isles - Bomber",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAIBomber_H",
+    "base_name": "VAIBomber",
+    "models": {
+      "main": "VAIBomber_H.modl"
+    },
+    "textures": {
+      "main": "VAIBomber1_main.texture",
+      "bump": "VAIBomber1_bump.texture",
+      "spec": "VAIBomber1_spec.texture",
+      "main2": "VAIBomber2_main.texture",
+      "bump2": "VAIBomber2_bump.texture",
+      "spec2": "VAIBomber2_spec.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_BOMBER01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_TRANSPORT": {
+    "display_name": "Anglo Isles - Air Transport",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAITPTbig_H",
+    "base_name": "VAITPTbig",
+    "models": {
+      "main": "VAITPTbig_H.modl"
+    },
+    "textures": {
+      "main": "VAITPT01_main.texture",
+      "bump": "VAITPT01_bump.texture",
+      "spec": "VAITPT01_spec.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_TPT01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_BATTLESHIP": {
+    "display_name": "Anglo Isles - Battleship",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAIBttleshipH",
+    "base_name": "VAIBttleship",
+    "models": {
+      "main": "VAIBttleshipH.modl"
+    },
+    "textures": {
+      "main": "VaiBattleship1_main.texture",
+      "bump": "VaiBattleship1_bump.texture",
+      "spec": "VaiBattleship1_spec.texture",
+      "main2": "VaiBattleship2_main.texture",
+      "bump2": "VaiBattleship2_bump.texture",
+      "spec2": "VaiBattleship2_spec.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_BSHIP01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_FRIGATE": {
+    "display_name": "Anglo Isles - Frigate",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAIFrigateH",
+    "base_name": "VAIFrigate",
+    "models": {
+      "main": "VAIFrigateH.modl"
+    },
+    "textures": {
+      "main": "VAIFrigate1_main.texture",
+      "bump": "VAIFrigate1_bump.texture",
+      "spec": "VAIFrigate1_spec.texture",
+      "main2": "VAIFrigate2_main.texture",
+      "bump2": "VAIFrigate2_bump.texture",
+      "spec2": "VAIFrigate2_spec.texture"
+    },
+    "icon": "AI_FRIGATE01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_SUBMARINE": {
+    "display_name": "Anglo Isles - Submarine",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAISUBMARINEH",
+    "base_name": "VAISUBMARINE",
+    "models": {
+      "main": "VAISUBMARINEH.modl"
+    },
+    "textures": {
+      "main": "VIASubmarine1_main.texture",
+      "bump": "VIASubmarine1_bump.texture",
+      "spec": "VIASubmarine1_spec.texture",
+      "main2": "VIASubmarine2_main.texture",
+      "bump2": "VIASubmarine2_bump.texture",
+      "spec2": "VIASubmarine2_spec.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "AI_SUB01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  },
+
+  "ANGLO_TRANSPORT_NAVAL": {
+    "display_name": "Anglo Isles - Naval Transport",
+    "type": "vehicle",
+    "faction": "AI",
+    "bgf_name": "VAINAVTRANS",
+    "base_name": "VAINAVTRANS",
+    "models": {
+      "main": "VAINAVTRANS.modl"
+    },
+    "textures": {
+      "main": "AINAVTRANS.texture",
+      "main2": "AINAVTRANS2.texture"
+    },
+    "icon": "AI_LCRAFT01.texture",
+    "new_icon_format": "AI_{NAME}.texture"
+  }
+}

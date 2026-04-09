@@ -1,0 +1,511 @@
+{
+  "WF_GRUNT": {
+    "display_name": "Western Frontier - Grunt",
+    "type": "infantry",
+    "faction": "WF",
+    "base_prefix": "WG",
+    "bgf_name": "WG_HI_LOD",
+    "models": {
+      "body": "WG_HI_LOD.modl",
+      "backpack": "WGBCKPCK.modl",
+      "weapon": "WFRIFLE.modl"
+    },
+    "textures": {
+      "body_diffuse": "WG_BODY_DIFF.texture",
+      "bag_diffuse": "WG_BAG_DIFF.texture",
+      "helmet_diffuse": "WG_HELMET_DIFF.texture",
+      "weapon_main": "WF_RIFLE.texture",
+      "share": "WF_SPECMAP01.texture"
+    },
+    "icon": "WF_GRUNT01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_BRYAN": {
+    "display_name": "Western Frontier - PVT Hazard",
+    "type": "infantry",
+    "faction": "WF",
+    "base_prefix": "WG",
+    "bgf_name": "WG_Bryan",
+    "models": {
+      "body": "WG_Bryan.modl",
+      "backpack": "wf_grunt_bryanpack.modl",
+      "weapon": "WFRIFLE.modl"
+    },
+    "textures": {
+      "body_diffuse": "WG_BOD_DIFF.texture",
+      "bag_diffuse": "WG_BAG_DIFF.texture",
+      "helmet_diffuse": "WG_bandage.texture",
+      "badge": "WG_bryan.texture",
+      "weapon_main": "WF_RIFLE.texture",
+      "share": "WF_SPECMAP01.texture"
+    },
+    "icon": "WF_PVTHazard01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_ANTI_AIR": {
+    "display_name": "Western Frontier - Anti-Air Veteran",
+    "type": "infantry",
+    "faction": "WF",
+    "base_prefix": "WV",
+    "bgf_name": "WV_HI_LOD",
+    "models": {
+      "body": "WV_HI_LOD.modl",
+      "weapon": "WAAIRGUN.modl",
+      "helmet": "WAAIRHELMET.modl",
+      "backpack": "WAAIRBPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "WV_BOD_DIFF.texture",
+      "weapon": "WF_A-AIRGUN.texture",
+      "helmet": "WF_A-AIRHELM.texture",
+      "pack": "WF_A-AIRPACK.texture"
+    },
+    "icon": "WF_ANTIAIR01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_BAZOOKA": {
+    "display_name": "Western Frontier - Bazooka Veteran",
+    "type": "infantry",
+    "faction": "WF",
+    "base_prefix": "WV",
+    "bgf_name": "WV_HI_LOD",
+    "models": {
+      "body": "WV_HI_LOD.modl",
+      "weapon": "WAARMGUN.modl",
+      "helmet": "WAARMHELMET.modl",
+      "backpack": "WAARMBPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "WV_BOD_DIFF.texture",
+      "weapon": "WF_A-ARMOURGUN.texture",
+      "helmet": "WF_A-ARMOURHELM.texture",
+      "pack": "WF_A-ARMOURPACK.texture"
+    },
+    "icon": "WF_ANTIARM01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_HEAVY_MACHINE_GUN": {
+    "display_name": "Western Frontier - Heavy Machine Gun",
+    "type": "infantry",
+    "faction": "WF",
+    "base_prefix": "WV",
+    "bgf_name": "WV_HI_LOD",
+    "models": {
+      "body": "WV_HI_LOD.modl",
+      "weapon": "WCHAIN.modl",
+      "helmet": "WCHAINHELMET.modl",
+      "backpack": "WCHAINBPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "WV_BOD_DIFF.texture",
+      "weapon": "WF_CHAINGUN.texture",
+      "helmet": "WF_CHAINHELM.texture",
+      "pack": "WF_CHAINPACK.texture"
+    },
+    "icon": "WF_HMG01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_FLAMETHROWER": {
+    "display_name": "Western Frontier - Flamethrower",
+    "type": "infantry",
+    "faction": "WF",
+    "base_prefix": "WV",
+    "bgf_name": "WV_HI_LOD",
+    "models": {
+      "body": "WV_HI_LOD.modl",
+      "weapon": "WHOSE.modl",
+      "helmet": "WHOSEHELMET.modl",
+      "backpack": "WHOSEBPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "WV_BOD_DIFF.texture",
+      "weapon": "WF_HOSEGUN.texture",
+      "helmet": "WF_HOSEHELM.texture",
+      "pack": "WF_HOSEPACK.texture"
+    },
+    "icon": "WF_HOSE01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_MORTAR": {
+    "display_name": "Western Frontier - Mortar",
+    "type": "infantry",
+    "faction": "WF",
+    "base_prefix": "WV",
+    "bgf_name": "WV_HI_LOD",
+    "models": {
+      "body": "WV_HI_LOD.modl",
+      "weapon": "WPARA.modl",
+      "helmet": "WPARAHELMET.modl",
+      "backpack": "WPARABPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "WV_BOD_DIFF.texture",
+      "weapon": "WF_PARABOLICGUN.texture",
+      "helmet": "WF_PARABOLICHELM.texture",
+      "pack": "WF_PARABOLICPACK.texture"
+    },
+    "icon": "WF_PARABOLIC01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_LIGHT_TANK": {
+    "display_name": "Western Frontier - Light Tank",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFLTNKH",
+    "base_name": "VWFLTNK",
+    "models": {
+      "main": "VWFLTNKH.modl",
+      "track_left": "VWFLTNKH_TRAC_L.modl",
+      "track_right": "VWFLTNKH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VWFLTNK_MAIN.texture",
+      "main_bump": "VWFLTNK_MAIN_BUMP.texture",
+      "main_spec": "VWFLTNK_MAIN_SPEC.texture",
+      "treads": "VWFLTNK_TREADS.texture",
+      "treadsb": "VWFLTNK_TREADSB.texture",
+      "share": "VWFSHARE.texture",
+      "refmap": "VWFREFMAP1.texture"
+    },
+    "icon": "WF_LTNK01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_HEAVY_TANK": {
+    "display_name": "Western Frontier - Heavy Tank",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFHTNKH",
+    "base_name": "VWFHTNK",
+    "models": {
+      "main": "VWFHTNKH.modl",
+      "track_left": "VWFHTNKH_TRAC_L.modl",
+      "track_right": "VWFHTNKH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VWFHTNK_MAIN.texture",
+      "bump": "VWFHTNK_BUMP.texture",
+      "spec": "VWFHTNK_SPEC.texture",
+      "treads": "VWFHTNK_TREADS.texture",
+      "treadsb": "VWFHTNK_TREADSB.texture",
+      "share": "VWFSHARE.texture"
+    },
+    "icon": "WF_HTNK01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_RECON": {
+    "display_name": "Western Frontier - Recon",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFRECOH",
+    "base_name": "VWFRECO",
+    "models": {
+      "main": "VWFRECOH.modl"
+    },
+    "textures": {
+      "main": "VWFRECO_MAIN.texture",
+      "main_bump": "VWFRECO_MAIN_BUMP.texture",
+      "main_spec": "VWFRECO_MAIN_SPEC.texture",
+      "treads": "VWFRECOT_TREADS.texture",
+      "treads_bump": "VWFRECOT_TREADS_BUMP.texture",
+      "treads_spec": "VWFRECOT_TREADS_SPEC.texture",
+      "share": "VWFSHARE.texture"
+    },
+    "icon": "WF_RECO01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_AAV": {
+    "display_name": "Western Frontier - Assault Armored Vehicle",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFAAH",
+    "base_name": "VWFAA",
+    "models": {
+      "main": "VWFAAH.modl",
+      "track_left": "VWFAAH_TRAC_L.modl",
+      "track_right": "VWFAAH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VWFAA_MAIN.texture",
+      "main_bump": "VWFAA_MAIN_BUMP.texture",
+      "main_spec": "VWFAA_MAIN_SPEC.texture",
+      "treads": "VWFAAT_TREADS.texture",
+      "treadsb": "VWFAAT_TREADSB.texture",
+      "share": "VWFSHARE.texture"
+    },
+    "icon": "WF_AA01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_ARTILLERY": {
+    "display_name": "Western Frontier - Artillery",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFARTH",
+    "base_name": "VWFART",
+    "models": {
+      "main": "VWFARTH.modl"
+    },
+    "textures": {
+      "main": "VWFART_MAIN.texture",
+      "main_bump": "VWFART_MAIN_BUMP.texture",
+      "main_spec": "VWFART_MAIN_SPEC.texture",
+      "treadsb": "VWFAAT_TREADSB.texture",
+      "share": "VWFSHARE.texture"
+    },
+    "icon": "WF_ART01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_BATTLESTATION": {
+    "display_name": "Western Frontier - Battlestation",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFBSTAH",
+    "base_name": "VWFBSTA",
+    "models": {
+      "main": "UnitGroundWFBattlestation.modl",
+      "track_left": "WFBattlestationTrackL.modl",
+      "track_right": "WFBattlestationTrackR.modl"
+    },
+    "textures": {
+      "main": "VWFBSTA_MAIN.texture",
+      "main_bump": "VWFBSTA_MAIN_BUMP.texture",
+      "main_spec": "VWFBSTA_MAIN_SPEC.texture",
+      "main1": "VWFBSTA_MAIN1.texture",
+      "main1_bump": "VWFBSTA_MAIN1_BUMP.texture",
+      "main1_spec": "VWFBSTA_MAIN1_SPEC.texture",
+      "main2": "VWFBSTA_MAIN2.texture",
+      "main2_bump": "VWFBSTA_MAIN2_BUMP.texture",
+      "main2_spec": "VWFBSTA_MAIN2_SPEC.texture",
+      "treads": "VWFBSTAT_TREADS.texture",
+      "treadsb": "VXAAT_TREADSB.texture",
+      "share": "VWFSHARE.texture",
+      "2ndweapon": "WF_A-ARMOURGUN.texture"     
+    },
+    "icon": "WF_BSTA01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_FIGHTER": {
+    "display_name": "Western Frontier - Fighter",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFFTRH",
+    "base_name": "VWFFTR",
+    "models": {
+      "main": "VWFFTRH.modl"
+    },
+    "textures": {
+      "main": "VWFFTR.texture",
+      "bump": "VWFFTR_BUMP.texture",
+      "shadow": "VWFFTR_SHADOW01.texture",
+      "spec": "VWFFTR_SPEC.texture",
+      "refmap": "VWFREFMAP1.texture",
+      "refmap2": "VREFMAP2.texture"
+    },
+    "icon": "WF_FTR01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_GUNSHIP": {
+    "display_name": "Western Frontier - Gunship",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFGSHPH",
+    "base_name": "VWFGSHP",
+    "models": {
+      "main": "VWFGSHPH.modl"
+    },
+    "textures": {
+      "main": "VWFGSHP.texture",
+      "main_bump": "vwfgshp_BUMP.texture",
+      "main_spec": "vwfgshp_SPEC.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "WF_GSHP01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_BOMBER": {
+    "display_name": "Western Frontier - Bomber",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFBOMBERH",
+    "base_name": "VWFBOMBER",
+    "models": {
+      "main": "VWFBOMBERH.modl"
+    },
+    "textures": {
+      "main": "VWFBOMBER.texture",
+      "main_bump": "VWFBOMBER_MAIN_BUMP.texture",
+      "main_spec": "VWFBOMBER_MAIN_SPEC.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "WF_BOMBER01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_TRANSPORT": {
+    "display_name": "Western Frontier - Air Transport",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFTPTH",
+    "base_name": "VWFTPT",
+    "models": {
+      "main": "VWFTPTH.modl"
+    },
+    "textures": {
+      "main": "VWFTPT.texture",
+      "bump": "VWFTPT_BUMP.texture",
+      "spec": "VWFTPT_SPEC.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "WF_TPT01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_STRATO": {
+    "display_name": "Western Frontier - Strato",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "UnitAirWFStrato",
+    "base_name": "UnitAirWFStrato",
+    "models": {
+      "main": "UnitAirWFStrato.modl",
+      "bomb": "WFSMXLVNUKE.modl"
+    },
+    "textures": {
+      "main": "vwfstrato0.texture",
+      "bump": "vwfstrato0_BUMP.texture",
+      "spec": "vwfstrato0_SPEC.texture",
+      "main1": "vwfstrato1.texture",
+      "bump1": "vwfstrato1_BUMP.texture",
+      "spec1": "vwfstrato1_SPEC.texture",
+      "main2": "vwfstrato2.texture",
+      "bump2": "vwfstrato2_BUMP.texture",
+      "spec2": "vwfstrato2_SPEC.texture",
+      "main3": "VWSFRT_MAIN1.texture",
+      "weapon": "WFSMSTRATBOMB.texture"
+    },
+    "icon": "WF_SRATO01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_BATTLESHIP": {
+    "display_name": "Western Frontier - Battleship",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFBTTLSHIPH",
+    "base_name": "VWFBTTLSHIP",
+    "models": {
+      "main": "VWFBTTLSHIPH.modl"
+    },
+    "textures": {
+      "main": "VWFBTTLSHIP.texture",
+      "main2": "VWFBTTLSHIP2.texture",
+      "bump": "VWFBTTLSHIP_bump.texture",
+      "spec": "VWFBTTLSHIP_spec.texture",
+      "refmap": "VWFREFMAP1.texture",
+      "share": "VWFSHARENAVAL.texture"
+    },
+    "icon": "WF_BSHIP01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_FRIGATE": {
+    "display_name": "Western Frontier - Frigate",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFRIGATEH",
+    "base_name": "VWFRIGATE",
+    "models": {
+      "main": "VWFFRIGATEH.modl"
+    },
+    "textures": {
+      "main": "VWFFRIGATE.texture",
+      "bump": "VWFFRIGATE_bump.texture",
+      "spec": "VWFFRIGATE_spec.texture",
+      "share": "VWFSHARENAVAL.texture"
+    },
+    "icon": "WF_FRIGATE01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_SUBMARINE": {
+    "display_name": "Western Frontier - Submarine",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFSUBMARINEH",
+    "base_name": "VWFSUBMARINE",
+    "models": {
+      "main": "VWFSUBMARINE.modl"
+    },
+    "textures": {
+      "main": "VWFSUBMARINE.texture",
+      "main2": "VWFSUBMARINE2.texture",
+      "main2_bump": "VWFSUBMARINE2_bump.texture",
+      "main2_spec": "VWFSUBMARINE2_spec.texture",
+      "main3": "VWFSUBMARINE3.texture",
+      "main3_bump": "VWFSUBMARINE3_bump.texture",
+      "main3_spec": "VWFSUBMARINE3_spec.texture",
+      "main4": "VWFSUBMARINE4.texture",
+      "main4_bump": "VWFSUBMARINE4_bump.texture",
+      "main4_spec": "VWFSUBMARINE4_spec.texture",
+      "main5": "VWFSUBMARINE5.texture",
+      "bump": "VWFSUBMARINE_bump.texture",
+      "spec": "VWFSUBMARINE_spec.texture",
+      "share": "VWFSHARENAVAL.texture",
+      "refmap": "VWFREFMAP1.texture",
+      "refmap2": "VREFMAP2.texture"
+    },
+    "icon": "WF_SUB01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_NAVAL_TRANSPORT": {
+    "display_name": "Western Frontier - Naval Transport",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFNavTrans_H",
+    "base_name": "VWFNavTrans",
+    "models": {
+      "main": "VWFNavTrans_H.modl"
+    },
+    "textures": {
+      "main": "VWFNAVTRANS01.texture",
+      "main2": "VWFNAVTRANS02.texture",
+      "share": "VWFSHARE.texture",
+      "refmap": "VWFREFMAP1.texture"
+    },
+    "icon": "WF_LCRAFT01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  },
+
+  "WF_DREADNOUGHT": {
+    "display_name": "Western Frontier - Dreadnought",
+    "type": "vehicle",
+    "faction": "WF",
+    "bgf_name": "VWFDREADNOUGHT_H",
+    "base_name": "VWFDREADNOUGHT",
+    "models": {
+      "main": "VWFDREADNOUGHT_H.modl"
+    },
+    "textures": {
+      "main": "VWF_DREADNOUGHT01_main.texture",
+      "bump": "VWF_DREADNOUGHT01_bump.texture",
+      "spec": "VWF_DREADNOUGHT01_spec.texture"
+    },
+    "icon": "WF_DNOUGHT01.texture",
+    "new_icon_format": "WF_{NAME}.texture"
+  }
+}

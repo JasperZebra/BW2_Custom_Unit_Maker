@@ -1,0 +1,482 @@
+{
+  "TUNDRAN_GRUNT": {
+    "display_name": "Tundran Territories - Grunt",
+    "type": "infantry",
+    "faction": "T",
+    "base_prefix": "TG",
+    "bgf_name": "TG_HI_LOD",
+    "models": {
+      "body": "TG_HI_LOD.modl",
+      "backpack": "TGPACK.modl",
+      "weapon": "TRIFLE.modl"
+    },
+    "textures": {
+      "body_diffuse": "TG_BOD_DIFF.texture",
+      "bag_diffuse": "TG_BAG_DIFF.texture",
+      "helmet_diffuse": "TG_HELM_DIFF.texture",
+      "weapon_main": "TGRUNTGUN.texture"
+    },
+    "icon": "T_GRUNT01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_GRUNT_ME": {
+    "display_name": "Tundran Territories - Munitions Expert",
+    "type": "infantry",
+    "faction": "T",
+    "base_prefix": "TG",
+    "bgf_name": "TG_HI_LOD",
+    "models": {
+      "body": "TG_HI_LOD.modl",
+      "backpack": "TTPACKDYN_H.modl"
+    },
+    "textures": {
+      "body_diffuse": "TG_BOD_DIFF.texture",
+      "bag_diffuse": "TG_BAG_DIFF.texture",
+      "helmet_diffuse": "TG_HELM_DIFF.texture",
+      "bomb": "C1SMMAUS02.texture"
+    },
+    "icon": "T_GRUNT01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_ANTI_AIR": {
+    "display_name": "Tundran Territories - Anti-Air Veteran",
+    "type": "infantry",
+    "faction": "T",
+    "base_prefix": "TV",
+    "bgf_name": "TV_HI_LOD",
+    "models": {
+      "body": "TV_HI_LOD.modl",
+      "weapon": "TAAIRGUN.modl",
+      "helmet": "TAAIRHELM.modl",
+      "backpack": "TAAIRPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "TV_BOD_DIFF.texture",
+      "weapon": "TANTIAIRGUN.texture",
+      "helmet": "TANTIAIRHELM.texture",
+      "pack": "TANTIAIRPACK.texture"
+    },
+    "icon": "T_ANTIAIR01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_BAZOOKA": {
+    "display_name": "Tundran Territories - Bazooka Veteran",
+    "type": "infantry",
+    "faction": "T",
+    "base_prefix": "TV",
+    "bgf_name": "TV_HI_LOD",
+    "models": {
+      "body": "TV_HI_LOD.modl",
+      "weapon": "TAARMGUN.modl",
+      "helmet": "TAARMHELM.modl",
+      "backpack": "TAARMPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "TV_BOD_DIFF.texture",
+      "weapon": "TANTIARMGUN.texture",
+      "helmet": "T-ANTIARMHELM.texture",
+      "pack": "T-ANTIARMPACK.texture"
+    },
+    "icon": "T_ANTIARM01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_CHAIN_VET": {
+    "display_name": "Tundran Territories - Chain Vet",
+    "type": "infantry",
+    "faction": "T",
+    "base_prefix": "TV",
+    "bgf_name": "TV_HI_LOD",
+    "models": {
+      "body": "TV_HI_LOD.modl",
+      "weapon": "TCHAINGUN.modl",
+      "helmet": "TCHAINHELM.modl",
+      "backpack": "TCHAINPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "TV_BOD_DIFF.texture",
+      "weapon": "TCHAINGUN.texture",
+      "helmet": "TCHAINHELM.texture",
+      "pack": "TCHAINPACK.texture"
+    },
+    "icon": "T_HMG01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_FLAMETHROWER": {
+    "display_name": "Tundran Territories - Flamethrower",
+    "type": "infantry",
+    "faction": "T",
+    "base_prefix": "TV",
+    "bgf_name": "TV_HI_LOD",
+    "models": {
+      "body": "TV_HI_LOD.modl",
+      "weapon": "THOSEGUN.modl",
+      "helmet": "THOSEHELM.modl",
+      "backpack": "THOSEPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "TV_BOD_DIFF.texture",
+      "weapon": "T-HOSEGUN.texture",
+      "helmet": "THOSEHELM.texture",
+      "pack": "T-HOSEPACK.texture"
+    },
+    "icon": "T_HOSE01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_MORTAR": {
+    "display_name": "Tundran Territories - Mortar",
+    "type": "infantry",
+    "faction": "T",
+    "base_prefix": "TV",
+    "bgf_name": "TV_HI_LOD",
+    "models": {
+      "body": "TV_HI_LOD.modl",
+      "weapon": "TPARAGUN.modl",
+      "helmet": "TPARAHELM.modl",
+      "backpack": "TPARAPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "TV_BOD_DIFF.texture",
+      "weapon": "TPARAGUN.texture",
+      "helmet": "TPARAHELM.texture",
+      "pack": "TPARAPACK.texture"
+    },
+    "icon": "T_PARABOLIC01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_LIGHT_TANK": {
+    "display_name": "Tundran Territories - Light Tank",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTLTNKH",
+    "base_name": "VTLTNK",
+    "models": {
+      "main": "VTLTNKH.modl"
+    },
+    "textures": {
+      "main": "VTLTNK_MAIN.texture",
+      "main_bump": "VTLTNK_MAIN_BUMP.texture",
+      "main_spec": "VTLTNK_MAIN_SPEC.texture",
+      "treads": "VTLTNKT_TREADS.texture",
+      "treads_BUMP": "VTLTNKT_TREADS_BUMP.texture",
+      "treads_SPEC": "VTLTNKT_TREADS_SPEC.texture",
+      "treads2a": "VTLTNK_treads2a.texture",
+      "treads2a_bump": "VTLTNK_treads2a_BUMP.texture",
+      "treads2a_spec": "VTLTNK_treads2a_SPEC.texture",
+      "treads2b": "VTLTNK_treads2b.texture",
+      "treads2b_bump": "VTLTNK_treads2b_BUMP.texture",
+      "treads2b_spec": "VTLTNK_treads2b_SPEC.texture",
+      "share": "VTSHARE.texture",
+      "refmap": "VREFMAP2.texture",
+      "2ndweapon": "T-HOSEGUN.texture"
+    },
+    "icon": "T_LTNK01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_HEAVY_TANK": {
+    "display_name": "Tundran Territories - Heavy Tank",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTHTNKH",
+    "base_name": "VTHTNK",
+    "models": {
+      "main": "VTHTNKH.modl",
+      "track_left": "VTHTNKH_TRAC_L.modl",
+      "track_right": "VTHTNKH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VTHTNK_MAIN.texture",
+      "main_bump": "VTHTNK_MAIN_BUMP.texture",
+      "main_spec": "VTHTNK_MAIN_SPEC.texture",
+      "treads": "VTHTNKT_TREADS.texture",
+      "treadsb": "VTHTNKT_TREADSB.texture",
+      "share": "VTSHARE.texture"
+    },
+    "icon": "T_HTNK01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_RECON": {
+    "display_name": "Tundran Territories - Recon",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTRECOH",
+    "base_name": "VTRECO",
+    "models": {
+      "main": "VTRECOH.modl",
+      "track_left": "VTRECOH_TRAC_L.modl",
+      "track_right": "VTRECOH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VTRECO_MAIN.texture",
+      "main_bump": "VTRECO_MAIN_Bump.texture",
+      "main_spec": "VTRECO_MAIN_Spec.texture",
+      "treads": "VTRECOT_TREADS.texture",
+      "treadsb": "VTRECOT_TREADSB.texture",
+      "share": "VTSHARE.texture",
+      "refmap": "VTREFMAP1.texture"
+    },
+    "icon": "T_RECO01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_AAV": {
+    "display_name": "Tundran Territories - Anti Air Vehicle",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTAAH",
+    "base_name": "VTAA",
+    "models": {
+      "main": "VTAAH.modl",
+      "track_left": "VTAAH_TRAC_L.modl",
+      "track_right": "VTAAH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VT_AA01_main.texture",
+      "main2": "VT_AA02_main.texture",
+      "main3": "VT_AA03_main.texture",
+      "bump3": "VT_AA03_bump.texture",
+      "spec3": "VT_AA03_spec.texture",
+      "main4": "VT_AA04_main.texture",
+      "bump4": "VT_AA04_bump.texture",
+      "spec4": "VT_AA04_spec.texture",
+      "main5": "VT_AA05_main.texture",
+      "bump5": "VT_AA05_bump.texture",
+      "spec5": "VT_AA05_spec.texture",
+      "treadsb": "VTHTNKT_TREADSB.texture"
+    },
+    "icon": "T_AA01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_ARTILLERY": {
+    "display_name": "Tundran Territories - Artillery",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTARTH",
+    "base_name": "VTART",
+    "models": {
+      "main": "VTARTH.modl"
+    },
+    "textures": {
+      "main1": "VT_ARTILLERY01_main.texture",
+      "bump1": "VT_ARTILLERY01_ bump.texture",
+      "spec1": "VT_ARTILLERY01_ spec.texture",
+      "main2": "VT_ARTILLERY02_main.texture",
+      "bump2": "VT_ARTILLERY02_ bump.texture",
+      "spec2": "VT_ARTILLERY02_ spec.texture",
+      "main3": "VT_ARTILLERY03_main.texture",
+      "bump3": "VT_ARTILLERY03_ bump.texture",
+      "spec3": "VT_ARTILLERY03_ spec.texture",
+      "main4": "VT_ARTILLERY04_main.texture",
+      "main5": "VT_ARTILLERY05_main.texture"
+    },
+    "icon": "T_ART01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_BATTLESTATION": {
+    "display_name": "Tundran Territories - Battlestation",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTBSTAH",
+    "base_name": "VTBSTA",
+    "models": {
+      "main": "VTBSTAH.modl"
+    },
+    "textures": {
+      "main": "VT_BSTA_main.texture",
+      "bump": "VT_BSTA_bump.texture",
+      "spec": "VT_BSTA_spec.texture"
+    },
+    "icon": "T_BSTA01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_SPYLOON": {
+    "display_name": "Tundran Territories - Spy Balloon",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "C1VSPYBLIMP",
+    "base_name": "C1VSPYBLIMP",
+    "models": {
+      "main": "C1VSPYBLIMP.modl"
+    },
+    "textures": {
+      "main": "C1SPYBLIMP.texture"
+    },
+    "icon": "T_BLIMP.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+
+  "TUNDRAN_FIGHTER": {
+    "display_name": "Tundran Territories - Fighter",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTFTRH",
+    "base_name": "VTFTR",
+    "models": {
+      "main": "VTFTRH.modl"
+    },
+    "textures": {
+      "main": "VTFT_MAIN.texture",
+      "main_bump": "VTFT_MAIN_BUMP.texture",
+      "main_spec": "VTFT_MAIN_SPEC.texture",
+      "share": "VTSHARE.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "T_FTR01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_GUNSHIP": {
+    "display_name": "Tundran Territories - Gunship",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTGSHPH",
+    "base_name": "VTGSHP",
+    "models": {
+      "main": "VTGSHPH.modl"
+    },
+    "textures": {
+      "main": "VTGSHP_MAIN.texture",
+      "main_bump": "VTGSHP_MAIN_BUMP.texture",
+      "main_spec": "VTGSHP_MAIN_SPEC.texture",
+      "share": "VTSHARE.texture",
+      "refmap": "VREFMAP2.texture"
+
+    },
+    "icon": "T_GSHP01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_BOMBER": {
+    "display_name": "Tundran Territories - Bomber",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTBOMBERH",
+    "base_name": "VTBOMBER",
+    "models": {
+      "main": "VTBOMBERH.modl"
+    },
+    "textures": {
+      "main": "VT_BOMBER01_main.texture",
+      "bump": "VT_BOMBER01_bump.texture",
+      "spec": "VT_BOMBER01_spec.texture",
+      "main2": "VT_BOMBER02_main.texture",
+      "bump2": "VT_BOMBER02_bump.texture",
+      "spec2": "VT_BOMBER02_spec.texture",
+      "main3": "VT_BOMBER03_main.texture"
+    },
+    "icon": "T_BOMBER01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_TRANSPORT": {
+    "display_name": "Tundran Territories - Air Transport",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTTPTH",
+    "base_name": "VTTPT",
+    "models": {
+      "main": "VTTPTH.modl"
+    },
+    "textures": {
+      "main": "VTTPT_MAIN.texture",
+      "main_bump": "VTTPT_MAIN_BUMP.texture",
+      "main_spec": "VTTPT_MAIN_SPEC.texture",
+      "share": "VTSHARE.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "T_TPT01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_BATTLESHIP": {
+    "display_name": "Tundran Territories - Battleship",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTBTTLSHIPH",
+    "base_name": "VTBTTLSHIP",
+    "models": {
+      "main": "VTBTTLSHIPH.modl"
+    },
+    "textures": {
+      "main": "VTBSHIP.texture",
+      "bump": "VTBSHIP_bump.texture",
+      "spec": "VTBSHIP_spec.texture"
+    },
+    "icon": "T_BSHIP01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_FRIGATE": {
+    "display_name": "Tundran Territories - Frigate",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTFRIGATEH",
+    "base_name": "VTFRIGATE",
+    "models": {
+      "main": "VTFRIGATEH.modl"
+    },
+    "textures": {
+      "main": "VT_FRIGATE01_main.texture",
+      "bump": "VT_FRIGATE01_bump.texture",
+      "spec": "VT_FRIGATE01_spec.texture",
+      "main2": "VT_FRIGATE02_main.texture",
+      "bump2": "VT_FRIGATE02_bump.texture",
+      "spec2": "VT_FRIGATE02_spec.texture"
+    },
+    "icon": "T_FRIGATE01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_SUBMARINE": {
+    "display_name": "Tundran Territories - Submarine",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTSUBMARINEH",
+    "base_name": "VTSUBMARINE",
+    "models": {
+      "main": "VTSUBMARINE.modl"
+    },
+    "textures": {
+      "main": "VT_SUB01_main.texture",
+      "bump": "VT_SUB01_bump.texture",
+      "spec": "VT_SUB01_spec.texture",
+      "main2": "VT_SUB02_main.texture",
+      "bump2": "VT_SUB02_bump.texture",
+      "spec2": "VT_SUB02_spec.texture",
+      "main3": "VT_SUB03_main.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "T_SUB01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  },
+
+  "TUNDRAN_DREADNOUGHT": {
+    "display_name": "Tundran Territories - Dreadnought",
+    "type": "vehicle",
+    "faction": "T",
+    "bgf_name": "VTDREADNOUGHT_H",
+    "base_name": "VTDREADNOUGHT",
+    "models": {
+      "main": "VTDREADNOUGHT_H.modl"
+    },
+    "textures": {
+      "main": "VTDREADNOUGHT01_main.texture",
+      "bump": "VTDREADNOUGHT01_bump.texture",
+      "spec": "VTDREADNOUGHT01_spec.texture"
+    },
+    "icon": "T_DNOUGHT01.texture",
+    "new_icon_format": "T_{NAME}.texture"
+  }
+}

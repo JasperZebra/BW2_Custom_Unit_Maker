@@ -1,0 +1,434 @@
+{
+  "XYLVANIA_GRUNT": {
+    "display_name": "Xylvania - Grunt",
+    "type": "infantry",
+    "faction": "X",
+    "base_prefix": "XG",
+    "bgf_name": "XG_HI_LOD",
+    "models": {
+      "body": "XG_HI_LOD.modl",
+      "backpack": "XGBCKPCK.modl",
+      "weapon": "XRIFLE.modl"
+    },
+    "textures": {
+      "body_diffuse": "XG_BOD_DIFF.texture",
+      "bag_diffuse": "XG_BAG_DIFF.texture",
+      "helmet_diffuse": "XG_HELM_DIFF.texture",
+      "weapon": "BasicGun.texture"
+    },
+    "icon": "X_GRUNT01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_ANTI_AIR": {
+    "display_name": "Xylvania - Anti-Air Veteran",
+    "type": "infantry",
+    "faction": "X",
+    "base_prefix": "XV",
+    "bgf_name": "XV_HI_LOD",
+    "models": {
+      "body": "XV_HI_LOD.modl",
+      "weapon": "XAAIR.modl",
+      "helmet": "XAAIRHELMET.modl",
+      "backpack": "XAAIRBPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "XV_BOD_DIFF.texture",
+      "weapon": "X_A-AIRGUN.texture",
+      "helmet": "X_A-AIRHELM.texture",
+      "pack": "X_A-AIRPACK.texture"
+    },
+    "icon": "X_ANTIAIR01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_BAZOOKA": {
+    "display_name": "Xylvania - Bazooka Veteran",
+    "type": "infantry",
+    "faction": "X",
+    "base_prefix": "XV",
+    "bgf_name": "XV_HI_LOD",
+    "models": {
+      "body": "XV_HI_LOD.modl",
+      "weapon": "XANTIARM.modl",
+      "helmet": "XAARMHELMET.modl",
+      "backpack": "XAARMBPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "XV_BOD_DIFF.texture",
+      "weapon": "X_A-ARMOURGUN.texture",
+      "helmet": "X_A-ARMOURHELM.texture",
+      "pack": "X_A-ARMOURPACK.texture"
+    },
+    "icon": "X_ANTIARM01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_HEAVY_MACHINE_GUN": {
+    "display_name": "Xylvania - Heavy Machine Gun",
+    "type": "infantry",
+    "faction": "X",
+    "base_prefix": "XV",
+    "bgf_name": "XV_HI_LOD",
+    "models": {
+      "body": "XV_HI_LOD.modl",
+      "weapon": "XCHAIN.modl",
+      "helmet": "XCHAINHELMET.modl",
+      "backpack": "XCHAINBPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "XV_BOD_DIFF.texture",
+      "weapon": "X_CHAINGUN.texture",
+      "helmet": "X_CHAINHELM.texture",
+      "pack": "X_CHAINPACK.texture"
+    },
+    "icon": "X_HMG01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_FLAMETHROWER": {
+    "display_name": "Xylvania - Flamethrower",
+    "type": "infantry",
+    "faction": "X",
+    "base_prefix": "XV",
+    "bgf_name": "XV_HI_LOD",
+    "models": {
+      "body": "XV_HI_LOD.modl",
+      "weapon": "XHOSE.modl",
+      "helmet": "XHOSEHELMET.modl",
+      "backpack": "XHOSEBPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "XV_BOD_DIFF.texture",
+      "weapon": "X_HOSEGUN.texture",
+      "helmet": "X_HOSEHELM.texture",
+      "pack": "X_HOSEPACK.texture"
+    },
+    "icon": "X_HOSE01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_MORTAR": {
+    "display_name": "Xylvania - Mortar",
+    "type": "infantry",
+    "faction": "X",
+    "base_prefix": "XV",
+    "bgf_name": "XV_HI_LOD",
+    "models": {
+      "body": "XV_HI_LOD.modl",
+      "weapon": "XPARA.modl",
+      "helmet": "XPARAHELMET.modl",
+      "backpack": "XPARABPACK.modl"
+    },
+    "textures": {
+      "body_diffuse": "XV_BOD_DIFF.texture",
+      "weapon": "X_PARABOLICGUN.texture",
+      "helmet": "X_PARABOLICHELM.texture",
+      "pack": "X_PARABOLICPACK.texture"
+    },
+    "icon": "X_PARABOLIC01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_LIGHT_TANK": {
+    "display_name": "Xylvania - Light Tank",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXLTNKH",
+    "base_name": "VXLTNK",
+    "models": {
+      "main": "VXLTNKH.modl",
+      "track_left": "VXLTNKH_TRAC_L.modl",
+      "track_right": "VXLTNKH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VXLTNK_MAIN.texture",
+      "main_bump": "VXLTNK_MAIN_BUMP.texture",
+      "main_spec": "VXLTNK_MAIN_SPEC.texture",
+      "treads": "VXLTNKT_TREADS.texture",
+      "treadsb": "VXAAT_TREADSB.texture",
+      "share": "VXSHARE.texture",
+      "2ndweapon": "X_HOSEGUN.texture"
+    },
+    "icon": "X_LTNK01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_HEAVY_TANK": {
+    "display_name": "Xylvania - Heavy Tank",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXHTNKH",
+    "base_name": "VXHTNK",
+    "models": {
+      "main": "VXHTNKH.modl",
+      "track_left": "VXHTNKH_TRAC_L.modl",
+      "track_right": "VXHTNKH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VXHTNK_MAIN.texture",
+      "main_bump": "VXHTNK_MAIN_bump.texture",
+      "main_spec": "VXHTNK_MAIN_spec.texture",
+      "share": "VXSHARE.texture",
+      "treads": "VXHTNKT_TREADS.texture",
+      "treadsb": "VXAAT_TREADSB.texture"
+    },
+    "icon": "X_HTNK01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_RECON": {
+    "display_name": "Xylvania - Recon",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXRECOH",
+    "base_name": "VXRECO",
+    "models": {
+      "main": "VXRECOH.modl"
+    },
+    "textures": {
+      "main": "VXLTRA_MAIN.texture",
+      "main_bump": "VXLTRA_MAIN_bump.texture",
+      "main_spec": "VXLTRA_MAIN_spec.texture",
+      "treads": "VXLTRAT_TREADS.texture",
+      "treads_bump": "VXLTRAT_TREADS_bump.texture",
+      "treads_spec": "VXLTRAT_TREADS_spec.texture",
+      "share": "VXSHARE.texture"
+    },
+    "icon": "X_RECO01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_AAV": {
+    "display_name": "Xylvania - Assault Armored Vehicle",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXAAH",
+    "base_name": "VXAA",
+    "models": {
+      "main": "VXAAH.modl",
+      "track_left": "VXAAH_TRAC_L.modl",
+      "track_right": "VXAAH_TRAC_R.modl"
+    },
+    "textures": {
+      "main": "VXAA_MAIN.texture",
+      "main_bump": "VXAA_MAIN_BUMP.texture",
+      "main_spec": "VXAA_MAIN_SPEC.texture",
+      "treads": "VXAAT_TREADS.texture",
+      "treadsb": "VXAAT_TREADSB.texture",
+      "share": "VXSHARE.texture"
+
+    },
+    "icon": "X_AA01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_ARTILLERY": {
+    "display_name": "Xylvania - Artillery",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXARTH",
+    "base_name": "VXART",
+    "models": {
+      "main": "VXARTH.modl"
+    },
+    "textures": {
+      "main": "VXART_MAIN.texture",
+      "main_bump": "VXART_MAIN_BUMP.texture",
+      "main_spec": "VXART_MAIN_SPEC.texture",
+      "treads": "VXARTT_TREADS.texture",
+      "treads_bump": "VXARTT_TREADS_BUMP.texture",
+      "treads_spec": "VXARTT_TREADS_SPEC.texture",
+      "share": "VXSHARE.texture"
+    },
+    "icon": "X_ART01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_BATTLESTATION": {
+    "display_name": "Xylvania - Battlestation",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXBSTAH",
+    "base_name": "VXBSTA",
+    "models": {
+      "main": "VXBSTAH.modl",
+      "track_left": "VXBSTA_TRACK_L.modl",
+      "track_right": "VXBSTA_TRACK_R.modl"
+    },
+    "textures": {
+      "main": "VXBSTA_MAIN.texture",
+      "bump": "VXBSTA_BUMP.texture",
+      "spec": "VXBSTA_SPEC.texture",
+      "main1": "VXBSTA_MAIN1.texture",
+      "bump1": "VXBSTA_BUMP1.texture",
+      "spec1": "VXBSTA_SPEC1.texture",
+      "main2": "VXBSTA_MAIN2.texture",
+      "bump2": "VXBSTA_BUMP2.texture",
+      "spec2": "VXBSTA_SPEC2.texture",
+      "treads": "VXBSTAT_TREADS.texture",
+      "treadsb": "VXAAT_TREADSB.texture",
+      "share": "VXSHARE.texture"
+    },
+    "icon": "X_BSTA01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_FIGHTER": {
+    "display_name": "Xylvania - Fighter",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXFTRH",
+    "base_name": "VXFTR",
+    "models": {
+      "main": "VXFTRH.modl"
+    },
+    "textures": {
+      "main": "VXFTR.texture",
+      "main_bump": "VXFTR_MAIN_BUMP.texture",
+      "main_spec": "VXFTR_MAIN_SPEC.texture",
+      "shadow": "VXFTR_SHADOW01.texture",
+      "refmap": "VXREFMAP1.texture",
+      "share": "VXSHARE.texture"
+    },
+    "icon": "X_FTR01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_GUNSHIP": {
+    "display_name": "Xylvania - Gunship",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXGSHPH",
+    "base_name": "VXGSHP",
+    "models": {
+      "main": "VXGSHPH.modl"
+    },
+    "textures": {
+      "main": "VXGSHP.texture",
+      "main_bump": "VXGSHP_MAIN_BUMP.texture",
+      "main_spec": "VXGSHP_MAIN_SPEC.texture",
+      "refmap": "VXREFMAP1.texture",
+      "share": "VXSHARE.texture"
+    },
+    "icon": "X_GSHP01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_BOMBER": {
+    "display_name": "Xylvania - Bomber",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXBOMBERH",
+    "base_name": "VXBMR",
+    "models": {
+      "main": "VXBOMBERH.modl"
+    },
+    "textures": {
+      "main": "VXBMR_MAIN.texture",
+      "main_bump": "VXBMR_MAIN_BUMP.texture",
+      "main_spec": "VXBMR_MAIN_SPEC.texture",
+      "refmap": "VXREFMAP1.texture",
+      "share": "VXSHARE.texture"
+    },
+    "icon": "X_BOMBER01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_TRANSPORT": {
+    "display_name": "Xylvania - Air Transport",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXTPTH",
+    "base_name": "VXTPT",
+    "models": {
+      "main": "VXTPTH.modl"
+    },
+    "textures": {
+      "main": "VXTPT_MAIN.texture",
+      "main_bump": "VXTPT_MAIN_BUMP.texture",
+      "main_spec": "VXTPT_MAIN_SPEC.texture",
+      "refmap": "VXREFMAP1.texture",
+      "share": "VXSHARE.texture"
+    },
+    "icon": "X_TPT01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_BATTLESHIP": {
+    "display_name": "Xylvania - Battleship",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXBTTLSHIPH",
+    "base_name": "VXBTTLSHIP",
+    "models": {
+      "main": "VXBTTLSHIPH.modl"
+    },
+    "textures": {
+      "main": "VX_BATTLESHIP01_main.texture",
+      "bump": "VX_BATTLESHIP01_bump.texture",
+      "spec": "VX_BATTLESHIP01_spec.texture"
+    },
+    "icon": "X_BSHIP01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_FRIGATE": {
+    "display_name": "Xylvania - Frigate",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXFRIGATEH",
+    "base_name": "VXFRIGATE",
+    "models": {
+      "main": "VXFRIGATEH.modl"
+    },
+    "textures": {
+      "main": "VX_FRIGATE01_main.texture",
+      "bump": "VX_FRIGATE01_bump.texture",
+      "spec": "VX_FRIGATE01_spec.texture",
+      "main2": "VX_FRIGATE02_main.texture",
+      "bump2": "VX_FRIGATE02_bump.texture",
+      "spec2": "VX_FRIGATE02_spec.texture",
+      "refmap": "VREFMAP2.texture"
+    },
+    "icon": "X_FRIGATE01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_SUBMARINE": {
+    "display_name": "Xylvania - Submarine",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXSUBMARINEH",
+    "base_name": "VXSUBMARINE",
+    "models": {
+      "main": "VXSUBMARINEH.modl"
+    },
+    "textures": {
+      "main": "VX_SUB01_main.texture",
+      "bump": "VX_SUB01_bump.texture",
+      "spec": "VX_SUB01_spec.texture",
+      "refmap": "VXREFMAP1.texture"
+    },
+    "icon": "X_SUB01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  },
+
+  "XYLVANIA_DREADNOUGHT": {
+    "display_name": "Xylvania - Dreadnought",
+    "type": "vehicle",
+    "faction": "X",
+    "bgf_name": "VXDREADNOUGHT_H",
+    "base_name": "VXDREADNOUGHT",
+    "models": {
+      "main": "VXDREADNOUGHT_H.modl"
+    },
+    "textures": {
+      "main": "VX_DREADNOUGHT01_main.texture",
+      "bump": "VX_DREADNOUGHT01_bump.texture",
+      "spec": "VX_DREADNOUGHT01_spec.texture"
+    },
+    "icon": "X_DNOUGHT01.texture",
+    "new_icon_format": "X_{NAME}.texture"
+  }
+}
