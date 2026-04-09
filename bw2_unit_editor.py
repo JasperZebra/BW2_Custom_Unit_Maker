@@ -174,7 +174,7 @@ class UnitEditorApp(ctk.CTk):
         import os
         script_dir = get_base_dir()
 
-        self.title("Battalion Wars: Custom Unit Editor | Made By: Jasper_Zebra | Version 2.0")
+        self.title("Battalion Wars 2 Custom Unit Maker | Made By: Jasper_Zebra | Version 2.0")
         self.geometry("1200x800")
 
         icon_path = os.path.join(script_dir, "app_icon.ico")
@@ -219,7 +219,7 @@ class UnitEditorApp(ctk.CTk):
         # Title
         title_label = ctk.CTkLabel(
             main_frame,
-            text="Battalion Wars 2: Custom Unit Editor",
+            text="Battalion Wars 2 Custom Unit Maker",
             font=ctk.CTkFont(size=20, weight="bold")
         )
         title_label.grid(row=0, column=0, columnspan=2, pady=(0, 10), sticky="ew")
